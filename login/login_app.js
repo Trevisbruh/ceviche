@@ -17,7 +17,7 @@ loginBtn.addEventListener('click', () => {
         alert("That's wrong bitch -_-");
         return;
     } else {
-        window.location.href = '/index.html';
+        window.location.href = '/ceviche/index.html';
         localStorage.setItem('login', true);
     }
 })
