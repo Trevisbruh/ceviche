@@ -8,7 +8,7 @@ const logoutBtn = document.querySelector('.logout-btn');
 window.addEventListener('load', () => {
     let logedin = localStorage.getItem('login') || false;
     if (logedin === 'false') {
-        window.location.href = '/login/login_index.html';
+        window.location.href = '/ceviche/login/login_index.html';
     }
 
 })
