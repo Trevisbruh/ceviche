@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fricking Todo App</title>
+</head>
+<body>
+
+    <div class="todo-container">
+        <div class="todo-input-container">
+            <form id="todo-input-form">
+                <input class="todo-input" type="text" placeholder="Create a Task" />
+                <button class="todo-btn">Create</button>
+            </form>
+        </div>
+
+        <div class="todo-item-container"></div>
+    </div>
+
+    <div class="middle-container">
+        <div class="middle-first-container">
+            <div class="title-container">
+                <h1 class="title">STUDENT ESSENTIAL</h1>
+            </div>
+            <div class="time-container">
+                <h1 class="time">00:00:00</h1> 
+                <button class="time-study-btn">Start Studying</button>
+            </div>
+        </div>
+
+        <div class="middle-second-container">
+            <button value="myanmar" class="myanmar subject">Myanmar</button>
+            <button value="english" class="english subject">English</button>
+            <button value="math" class="math subject">Math</button>
+            <button value="physics" class="physics subject">Physics</button>
+            <button value="chemistry" class="chemistry subject">Chemistry</button>
+            <button value="bio" class="bio subject">Bio</button>
+        </div>
+    </div>
+
+    <div class="last-container">
+        <div class="score-container">
+            <p class="score">Last Score: <input type="number" readonly class="score-num" value="0"/></p>
+        </div>
+        <div class="cal-container">
+            <input type="text" class="cal-input" />
+            <div class="cal-btn-container">
+                <button value="/" class="cal-btn"></button>
+                <button value="*" class="cal-btn"></button>
+                <button value="-" class="cal-btn"></button>
+                <button value="7" class="cal-btn"></button>
+                <button value="8" class="cal-btn"></button>
+                <button value="9" class="cal-btn"></button>
+                <button value="4" class="cal-btn"></button>
+                <button value="5" class="cal-btn"></button>
+                <button value="6" class="cal-btn"></button>
+                <button value="1" class="cal-btn"></button>
+                <button value="2" class="cal-btn"></button>
+                <button value="3" class="cal-btn"></button>
+                <button value="0" class="cal-btn"></button>
+                <button value="+" class="cal-btn"></button>
+                <button style="background-color: #76ABAE;" value="=" class="cal-answer cal-btn"></button>
+            </div>
+        </div>
+        <!-- <button class="logout-btn">Log out</button> -->
+    </div>
+
+    <script src="app.js"></script>
+    <script src="calculator.js"></script>
+    <script src="stopWatch.js"></script>
+</body>
+</html>
